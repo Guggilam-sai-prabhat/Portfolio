@@ -7,6 +7,7 @@ import Particle from "../Particle";
 import Netflix from "../../Assets/Projects/Netflix.png";
 import Maze from "../../Assets/Projects/Maze.png";
 import portal from "../../Assets/Projects/class-portal.png";
+import Gemini from "../../Assets/Projects/Gemini.png";
 // import Shortener from "../../Assets/Projects/shortener.png";
 
 function Projects() {
@@ -76,6 +77,18 @@ upon completion.
 Django, adept at managing online student records and assessments,
 including mark updates, notices, and assignment uploads."
               ghLink="https://github.com/GUGGILAM-SAI-PRABHAT/CLASSMANAGER-STUDENT-TEACHER-PORTAL"
+              
+            />
+          </Col>
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={Gemini}
+              isBlog={false}
+              title="GEMINI"
+              description="Gemini, a React.js-powered application, seamlessly integrates with the Gemini API to deliver a dynamic user experience through state-of-the-art Generative AI content generation. 
+              Its architecture follows a client-server model, utilizing React components and RESTful API calls for efficient communication and rendering."
+              ghLink="https://github.com/Guggilam-sai-prabhat/Gemini-clone"
+              demoLink = "https://geminiclone1.netlify.app/"
               
             />
           </Col>
