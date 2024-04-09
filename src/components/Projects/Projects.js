@@ -8,6 +8,7 @@ import Netflix from "../../Assets/Projects/Netflix.png";
 import Maze from "../../Assets/Projects/Maze.png";
 import portal from "../../Assets/Projects/class-portal.png";
 import Gemini from "../../Assets/Projects/Gemini.png";
+import Restuarnt from "../../Assets/Projects/Restuarant.png";
 // import Shortener from "../../Assets/Projects/shortener.png";
 
 function Projects() {
@@ -91,6 +92,17 @@ including mark updates, notices, and assignment uploads."
               Its architecture follows a client-server model, utilizing React components and RESTful API calls for efficient communication and rendering."
               ghLink="https://github.com/Guggilam-sai-prabhat/Gemini-clone"
               demoLink = "https://geminiclone1.netlify.app/"
+              
+            />
+          </Col>
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={Restuarnt}
+              isBlog={false}
+              title="GEMINI"
+              description="It is Mern Stack Application with the following features: Reserve the table, Succes page and Error page "
+              ghLink="https://github.com/Guggilam-sai-prabhat/Portfolio"
+              demoLink = "https://restaurant-reservation-dun.vercel.app/"
               
             />
           </Col>
