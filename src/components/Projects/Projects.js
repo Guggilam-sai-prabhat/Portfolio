@@ -24,10 +24,12 @@ function Projects() {
               imgPath={Netflix}
               isBlog={false}
               title="Netflix Clone"
-              description="• Designed a visually appealing and modern UI for a Netflix clone, focusing on enhancing the user experience. 
-              Developed a responsive interface with tab shifting functionality,ensuring seamless content display across various devices."
-              ghLink="https://github.com/GUGGILAM-SAI-PRABHAT/NETFLIX_CLONE"
-              demoLink = "https://guggilam-sai-prabhat.github.io/NETFLIX_CLONE/index.html"
+              description="Developed a responsive web application featuring user authentication, 
+              real-time database interactions, a favorites system, and Firebase hosting, highlighting full-stack development capabilities. 
+              Integrated with The Movie Database (TMDB) API for dynamic movie content display, showcasing expertise in API utilization and data management. 
+              Used TailwindCSS for design, emphasizing responsive and modern web development practices."
+              
+              demoLink = "https://netflixy-c8d03.web.app/"
             />
           </Col>
 
