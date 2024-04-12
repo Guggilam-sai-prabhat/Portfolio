@@ -99,7 +99,7 @@ including mark updates, notices, and assignment uploads."
             <ProjectCard
               imgPath={Restuarnt}
               isBlog={false}
-              title="GEMINI"
+              title="RESTAURANT RESERVATION"
               description="It is Mern Stack Application with the following features: Reserve the table, Succes page and Error page "
               
               demoLink = "https://restaurant-reservation-dun.vercel.app/"
