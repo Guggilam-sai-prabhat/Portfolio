@@ -30,7 +30,7 @@ function Projects() {
               Integrated with The Movie Database (TMDB) API for dynamic movie content display, showcasing expertise in API utilization and data management. 
               Used TailwindCSS for design, emphasizing responsive and modern web development practices."
               
-              demoLink = "https://netflixy-c8d03.web.app/"
+              demoLink = "https://netflixy.netlify.app/"
             />
           </Col>
 
