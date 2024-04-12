@@ -101,7 +101,7 @@ including mark updates, notices, and assignment uploads."
               isBlog={false}
               title="GEMINI"
               description="It is Mern Stack Application with the following features: Reserve the table, Succes page and Error page "
-              ghLink="https://github.com/Guggilam-sai-prabhat/Portfolio"
+              
               demoLink = "https://restaurant-reservation-dun.vercel.app/"
               
             />
