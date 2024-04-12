@@ -8,7 +8,7 @@ import Netflix from "../../Assets/Projects/Netflix.png";
 import Maze from "../../Assets/Projects/Maze.png";
 import portal from "../../Assets/Projects/class-portal.png";
 import Gemini from "../../Assets/Projects/Gemini.png";
-import Restuarnt from "../../Assets/Projects/Restuarant.png";
+import Restuarnt from "../../Assets/Projects/Resturant.png";
 // import Shortener from "../../Assets/Projects/shortener.png";
 
 function Projects() {
