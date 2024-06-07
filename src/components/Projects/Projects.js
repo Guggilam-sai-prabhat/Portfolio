@@ -4,11 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import Gradient from "../../Assets/Projects/gradient.gif";
 // import Crypto from "../../Assets/Projects/crypto.png";
-import Netflix from "../../Assets/Projects/Netflix.png";
+import Moviexy from  "../../Assets/Projects/Moviexy.png";
 import Maze from "../../Assets/Projects/Maze.png";
 import portal from "../../Assets/Projects/class-portal.png";
 import Gemini from "../../Assets/Projects/Gemini.png";
 import Restuarnt from "../../Assets/Projects/Resturant.png";
+
 // import Shortener from "../../Assets/Projects/shortener.png";
 
 function Projects() {
@@ -22,15 +23,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={Netflix}
+              imgPath={Moviexy}
               isBlog={false}
-              title="Netflix Clone"
+              title= "MOVIEXY"
               description="Developed a responsive web application featuring user authentication, 
               real-time database interactions, a favorites system, and Firebase hosting, highlighting full-stack development capabilities. 
               Integrated with The Movie Database (TMDB) API for dynamic movie content display, showcasing expertise in API utilization and data management. 
               Used TailwindCSS for design, emphasizing responsive and modern web development practices."
               
-              demoLink = "https://netflixy.netlify.app/"
+              demoLink = "https://moviexy-c0c66.web.app/"
             />
           </Col>
 
