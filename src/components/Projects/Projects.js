@@ -9,6 +9,7 @@ import Maze from "../../Assets/Projects/Maze.png";
 import portal from "../../Assets/Projects/class-portal.png";
 import Gemini from "../../Assets/Projects/Gemini.png";
 import Restuarnt from "../../Assets/Projects/Resturant.png";
+import Twitter from "../../Assets/Projects/Twitter.png";
 
 // import Shortener from "../../Assets/Projects/shortener.png";
 
@@ -104,6 +105,17 @@ including mark updates, notices, and assignment uploads."
               description="It is Mern Stack Application with the following features: Reserve the table, Succes page and Error page "
               
               demoLink = "https://restaurant-reservation-dun.vercel.app/"
+              
+            />
+          </Col>
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={Twitter}
+              isBlog={false}
+              title="X-Twitter"
+              description="It is a Twitter clone built with MERN. It has all the features of a normal Twitter, including: User authentication, creating tweets, following other users, and viewing other user's tweets."
+              
+              demoLink = "https://twitter-x-clone-frontend.vercel.app/login"
               
             />
           </Col>
