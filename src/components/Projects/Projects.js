@@ -31,6 +31,7 @@ function Projects() {
             description = "This is an AI Image Generation MERN app that utilizes the openAI API for image generation,MongoDB Atlas for the database functionality and Cloudinary for uploading images generated so they can be shared with the community."
 
             demoLink = 'https://ai-image-generationn.netlify.app/'
+            ghLink = "https://github.com/Guggilam-sai-prabhat/AI_GENERATED"
             />
           </Col>
           <Col md={5} className="project-card">
