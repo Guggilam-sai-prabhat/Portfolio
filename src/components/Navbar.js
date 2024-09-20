@@ -7,7 +7,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillSwitcher,
 } from "react-icons/ai";
+import { TbLogs } from "react-icons/tb";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -74,6 +76,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blogs"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillSwitcher
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Blogs
               </Nav.Link>
             </Nav.Item>
 

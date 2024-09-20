@@ -12,7 +12,7 @@ function AboutCard() {
             <br />
             I appreciate the opportunity for development and friendly staff.
             <br />
-            Currently learning the fundamentals of web development, diving into both front-end and back-end technologies.
+            I'm an experienced web developer skilled in both front-end and back-end technologies. I enjoy creating user-friendly websites and robust applications. Looking forward to new opportunities in the field!
             <br />
             <br />
           </p>

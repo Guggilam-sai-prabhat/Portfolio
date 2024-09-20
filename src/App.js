@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
+import Blogs from "./components/Blogs/Blogs";
 import Resume from "./components/Resume/ResumeNew";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/react"
@@ -39,6 +40,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path = "/blogs" element = {<Blogs/>} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
