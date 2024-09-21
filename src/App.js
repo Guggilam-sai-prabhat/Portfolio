@@ -17,6 +17,7 @@ import {
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
+import CustomCursor from "./components/Cursor/CustomCursor";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -32,8 +33,10 @@ function App() {
 
   return (
     <Router>
+
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <CustomCursor />
         <Navbar />
         <ScrollToTop />
         <Routes>

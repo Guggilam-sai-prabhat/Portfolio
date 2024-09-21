@@ -1,0 +1,21 @@
+/* CustomCursor.css */
+.cursor-trail {
+  position: fixed;
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #CC99FF; /* Initial bright purple */
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: transform 0.1s ease-out, opacity 0.8s ease-out;
+  opacity: 1;
+}
+
+@keyframes colorShift {
+  0% { background-color: #820ff5; }
+  25% { background-color: #abe2fb; } /* Light blue */
+  50% { background-color: #FFC0CB; } /* Light pink */
+  75% { background-color: #d8d82a; } /* Light yellow */
+  100% { background-color: #5c057e; }
+}
