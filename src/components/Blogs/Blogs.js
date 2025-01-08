@@ -13,7 +13,7 @@ function Blogs () {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Blogs</strong>
+          My Recent <strong className="purple">Blog</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={5} className="project-card">
